@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+      color: #BDFF00;
+    }
+    .c{
+      text-align: center;
+    }
+    h3{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .d{
+      width: 200px;
+      height: 40px;
+      background-color: #A4FF00;
+      color: black;
+      font-weight: bolder;
+      border: 1px solid transparent;
+      margin-bottom: 20px;
+    }
+    #demo{
+      margin: 2px 10px;
+      font-size: 14px;
+      line-height: 20px;
+      font-family: 'Rubik Glitch', cursive
+    }
+  </style>
+</head>
+<body>
+
+<h3 class="c">You are Welcome</h3>
+<div class="c">
+<button class=" d c" onclick="typeWriter()">আমাকে একটু স্পর্শ করো</button></div>
+
+<div id="demo"></div>
+
+<script>
+let i = 0;
+let txt = '[[Searching data factory...]]~~~~~~~~~~~~~~{{attempt denied°°°°}} ¢¢¢Searching again¢¢¢¢ 0048645876fh hdgkgg368964 368965hkvfgjbb 368446787gkg 5896458nlhdd 3685368536 hjh4787535887 0769975468754 3578964368 riit5895258 Datacalculating.....  <datagrid>DataTransferItem</datagrid> DataTransferItem datagrid datacalculaing failed......failed......<figcaption>477547655 yihf47954778 578359_4 tiighkgfj 5688654576 </figcaption> <source media="(min-width: 500kb)" srcset="www.facebook.com" <input type="password" name="××××××××" id="********%%%%%%*" value="•••••••••" /> type="image/"> trying to redirect.......[[[Redirected device successful,,,,,, ]]]] <waiting for IP add>> {{{ firewall found ...........}}} 27985589558 577445677 47976888 288566658 27985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 47976888279855689558 577445677 4797688827985589558 577445677 479768882798558965558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 47976888279855259558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 47976888279856589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 4797688827985589558 577445677 47976888 ////ip uploaded successfully///////// Device optimization requesting........... ///////////////successfully placed ackground&&&&&&&&&&&&&&if if if !!!!!!!!';
+let speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+</body>
+</html>
